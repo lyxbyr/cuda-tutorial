@@ -1,9 +1,9 @@
 #include "stdio.h"
 #include "assert.h"
 
-#define BLOCKS 7
-#define THREADS 3
-#define ARRAY_SIZE 5
+#define BLOCKS 10
+#define THREADS 10
+#define ARRAY_SIZE 100
 const int ARRAY_BYTES = ARRAY_SIZE * sizeof(int);
 
 
